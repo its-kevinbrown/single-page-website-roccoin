@@ -26,7 +26,7 @@
 }
 
 .a-right img {
-    height: 90%;
+    height: 100%;
     right: 0;
     position: absolute;
     object-fit: contain;
@@ -39,6 +39,7 @@
     position: absolute;
     top: 90%;
     right: 20px;
+    cursor: pointer;
 }
 
 .scroll-down span:nth-child(1){

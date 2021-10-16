@@ -18,7 +18,6 @@ const About = () => {
             </div>
             <div className="a-right">
                 <img src={smileMan} alt="" />
-
             </div>
         </div>
     )
