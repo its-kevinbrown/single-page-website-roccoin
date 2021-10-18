@@ -1,0 +1,48 @@
+.social {
+    max-width: 1335px;
+    height: 450px;
+    margin: 30px auto 60px;
+    padding: 40px 60px;
+    background-color: rgb(245, 245, 245);
+}
+
+.s-title {
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 20px;
+}
+
+.s-subtitle {
+    font-size: 35px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-bottom: 60px;
+}
+
+.social-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px 20px;
+}
+
+.s-tab {
+    width: 90%;
+    background-color: #121212;
+}
+
+.s-tab a {
+    text-decoration: none;
+    color: #e4e4e4;
+}
+
+.s-tab-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+}
+
+.s-tab-title {
+    font-size: 22px;
+    font-weight: 700;
+}

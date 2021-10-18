@@ -1,5 +1,6 @@
 .about {
-    width: 100%;
+    max-width: 1335px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 2fr 3fr;
 }
