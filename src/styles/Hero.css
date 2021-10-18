@@ -1,0 +1,76 @@
+.hero {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* padding-left: 60px; */
+    position: relative;
+}
+
+.h-left, .a-right {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.h-intro h1 {
+    font-size: 75px;
+    font-weight: 500;
+}
+.h-intro h2 {
+    font-size: 25px;
+    font-weight: 300;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.h-right img {
+    height: 100%;
+    right: 0;
+    position: absolute;
+    object-fit: contain;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+
+/* scroll animation  */
+
+.scroll-down {
+    position: absolute;
+    top: 90%;
+    right: 20px;
+    cursor: pointer;
+}
+
+.scroll-down span:nth-child(1){
+    animation-delay: -0.2s;
+}
+
+.scroll-down span:nth-child(2){
+    animation-delay: -0.4s;
+}
+
+.scroll-down span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 3s infinite;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-10px,-10px);
+    }
+    50% {
+        opacity: .9;
+    }
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(10px,10px);
+    }
+}

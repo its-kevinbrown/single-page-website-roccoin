@@ -40,6 +40,10 @@
     margin-bottom: 20px;
 }
 
+.c-title {
+    margin-bottom: 20px;
+}
+
 .c-social-links ul {
     list-style-type: none;
     display: flex;
@@ -54,4 +58,3 @@
 .c-icons{
     font-size: 28px !important;
 }
-

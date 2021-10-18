@@ -1,4 +1,5 @@
 import React from 'react';
+import Hero from './components/Hero';
 import About from './components/About';
 import Projects from './components/Projects';
 import './styles/index.css';
@@ -6,8 +7,9 @@ import './styles/index.css';
 const App = () => {
   return (
     <div className="app">
-      <About />
+      <Hero />
       <Projects />
+      <About />
     </div>
   )
 }
