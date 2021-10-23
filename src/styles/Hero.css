@@ -1,32 +1,44 @@
 .hero {
     width: 100%;
+    height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* padding-left: 60px; */
     position: relative;
+    overflow: hidden;
 }
 
-.h-left, .a-right {
+.h-left, .h-right {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+    z-index: 3000;
 }
 
 .h-intro h1 {
     font-size: 75px;
     font-weight: 500;
+    font-family: 'Quattrocento', serif;
+    line-height: 1;
 }
+
+.h-intro span {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    font-size: 95px;
+}
+
 .h-intro h2 {
     font-size: 25px;
     font-weight: 300;
     margin-left: 5px;
-    margin-top: 10px;
+    margin-top: 20px;
+    font-family: 'Quattrocento', serif;
 }
 
 .h-right img {
-    height: 100%;
+    height: 100vh;
     right: 0;
     position: absolute;
     object-fit: contain;
@@ -72,5 +84,108 @@
     100% {
         opacity: 0;
         transform: rotate(45deg) translate(10px,10px);
+    }
+}
+
+
+@media only screen and (max-width: 1180px){
+    
+    .h-intro h1 {
+        font-size: 55px;
+    }
+    .h-intro span {
+        font-size: 75px;
+    }
+    .h-intro h2 {
+        font-size: 22px;
+    }
+    .h-right img {
+        /* clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 3% 50%); */
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    
+    .h-right img {
+        width: 100%;
+        clip-path: none;
+        height: 55%;
+        filter: drop-shadow(20px 20px 10px rgba(0, 0, 0, 0.35));
+    }
+
+    .hero {
+        grid-template-columns: 3fr 2fr;
+        padding: 30px;
+    }
+
+    .h-right img {
+        clip-path: none;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    
+    .h-intro h1 {
+        font-size: 45px;
+    }
+    .h-intro span {
+        font-size: 65px;
+    }
+    .scroll-down {
+        display: none;
+    }
+}
+ 
+@media only screen and (max-width: 870px){
+    .hero {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+        margin-top: 100px;
+    }
+    .h-intro {
+        padding: 0;
+        margin-right: auto;
+        margin-left: 30px;
+    }
+    .h-right{
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .h-right > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+ 
+
+@media only screen and (max-width: 670px){
+    .hero {
+        margin-top: 40px;
+    }
+    .h-intro {
+        margin-left: 20px;
+    }
+
+    .h-intro h1 {
+        font-size: 40px;
+        line-height: 1.2;
+    }
+    .h-intro span {
+        font-size: 55px;
+    }
+    .h-intro h2 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .h-right {
+        margin-bottom: 30px;
     }
 }

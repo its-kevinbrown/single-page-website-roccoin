@@ -1,0 +1,93 @@
+.navbar {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5000;
+}
+
+
+.n-wrapper {
+    width: 65%;
+    margin: 20px auto 0 20px;
+    padding: 20px 5%;
+    border-radius: 200px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.20);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.n-menu {
+    list-style: none;
+}
+
+.n-menu-link {
+    display: inline-block;
+    padding: 0 18px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    cursor: pointer;
+}
+ 
+.n-menu-link:hover {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.n-logo {
+    margin-right: auto;
+    cursor: pointer;
+    font-family :'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.menu-icon {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1180px){
+    .n-menu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .n-wrapper {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
+
+
+.drop-menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 55%;
+    right: 0;
+    right: 0;
+    background-color: #1d1d1d;
+}
+
+.drop-menu {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px;
+}
+
+.drop-menu > li {
+    width: 100%;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 5px 0;
+    font-size: 16px;
+    color: #fff;
+    user-select: none;
+}
+
+.drop-menu > li:hover {
+   color: #ada4a4;
+}

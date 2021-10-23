@@ -1,5 +1,7 @@
 import React from 'react';
 import '../styles/Hero.css';
+import { Link } from 'react-scroll';
+import { motion } from 'framer-motion';
 
 
 const Hero = () => {
@@ -7,18 +9,38 @@ const Hero = () => {
     return (
         <div className="hero">
             <div className="h-left">
-                <div className="h-intro">
-                    <h1>I'm <span>Arnav</span> Negi</h1>
+                <motion.div
+                    className="h-intro"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ delay: 1, duration: 2 }}
+
+                >
+                    <h1 >Hello, I'm <br /> <span>Peter Jackson</span> </h1>
                     <h2>Freelance ReactJS Developer</h2>
-                </div>
+                </motion.div>
+                <Link
+                    to="projects"
+                    exact="true"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    offset={50}
+                >
                     <div className="scroll-down">
                         <span></span>
                         <span></span>
-                </div>
+                    </div>
+                </Link>
             </div>
-            <div className="h-right">
+            <motion.div
+                className="h-right"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{delay: 1, duration: 3}}
+            >
                 <img src={smileMan} alt="" />
-            </div>
+            </motion.div>
         </div>
     )
 }

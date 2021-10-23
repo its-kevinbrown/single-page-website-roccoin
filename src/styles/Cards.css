@@ -36,11 +36,7 @@
     padding: 5px 20px 10px;
 }
 
-.c-text {
-    margin-bottom: 20px;
-}
-
-.c-title {
+.c-text, .c-title {
     margin-bottom: 20px;
 }
 
@@ -57,4 +53,124 @@
 
 .c-icons{
     font-size: 28px !important;
+}
+
+/* Media queries */
+
+
+@media only screen and (max-width: 1390px) {
+    .c-bg-image {
+        height: 350px;
+    }
+
+    .img-wrapper {
+        margin: 25px 15px;
+    }
+
+    .c-content {
+        padding: 5px 15px 10px;
+    }  
+
+    .cards {
+        padding: 0 10px 20px;
+        margin: 15px;
+    }
+    
+    .c-text {
+        margin-bottom: 30px;
+    }
+
+    .c-title{
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    .c-bg-image {
+        height: 280px;
+    }
+
+    .c-text {
+        margin-bottom: 20px;
+    }
+    
+    .c-icons {
+        font-size: 24px !important;
+    }
+    
+    .cards {
+        padding: 0 10px 15px;
+    }
+
+    .img-wrapper {
+        margin: 15px 5px 20px;
+    }
+}
+
+
+@media only screen and (max-width: 920px) {
+    .c-bg-image {
+        height: 220px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 920px) {
+    .c-bg-image {
+        height: 220px;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .cards {
+        max-width: 600px;
+        padding: 0 10px 30px;
+        margin: 20px auto;
+    }
+    .c-bg-image {
+        height: 450px;
+    }
+
+    .img-wrapper {
+        margin: 20px 10px;
+    }
+
+    .c-content {
+        padding: 5px 20px 10px;
+    }  
+
+    .c-text {
+        margin-bottom: 20px;
+    }
+
+    .c-title{
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .cards {
+        padding: 0 10px 10px;
+    }
+    .c-bg-image {
+        height: 350px;
+    }
+
+    .img-wrapper {
+        margin: 10px 0;
+    }
+    .c-content {
+        padding: 5px 5px 10px;
+    }  
+
+    .c-title{
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .c-text {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
 }
