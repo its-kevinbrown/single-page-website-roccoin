@@ -1,12 +1,12 @@
 import React from 'react';
 import '../styles/Social.css';
 import { Fade } from 'react-awesome-reveal';
-import { Twitter, Instagram, Facebook, GitHub, SystemUpdateAlt, LinkedIn } from '@material-ui/icons';
+import { Instagram, WhatsApp, } from '@material-ui/icons';
 
 
 const Tabs = ({ title, Icon, socialLink }) => (
     <div className="s-tab">
-        <a href={socialLink}>
+        <a href ={socialLink} target= "_blank" rel='noreferrer'>
             <div className="s-tab-wrapper">
                 <h2 className="s-tab-title" >{title}</h2>
                 <div className="s-tab-icon">
@@ -26,7 +26,7 @@ const Social = () => {
                 <h1 className="s-subtitle" >My Social</h1>
                 <div className="social-links">
 
-                    <Tabs
+                    {/*<Tabs
                         title="Twitter"
                         Icon={Twitter}
                         socialLink="#twitter"
@@ -35,31 +35,31 @@ const Social = () => {
                     <Tabs
                         title="Facebook"
                         Icon={Facebook}
-                        socialLink="#facebook"
-                    />
+                        socialLink="https://www.facebook.com/kelvin.ogonda"
+                     />*/}
 
                     <Tabs
                         title="Instagram"
                         Icon={Instagram}
-                        socialLink="#instagram"
+                        socialLink="https://www.instagram.com/roccoin444/"
                     />
 
                     <Tabs
-                        title="Github"
-                        Icon={GitHub}
-                        socialLink="#github"
+                        title="WhatsApp"
+                        Icon={WhatsApp}
+                        socialLink="https://wa.me/+2347083708989"
                     />
 
-                    <Tabs
+                    {/*<Tabs
                         title="Linkedin"
                         Icon={LinkedIn}
                         socialLink="#linkedin"
-                    />
+                    />*/}
 
                     <Tabs
-                        title="Resume"
-                        Icon={SystemUpdateAlt}
-                        socialLink="#download"
+                        title="Gift Card Support"
+                        Icon={WhatsApp}
+                        socialLink="https://wa.me/+2349035223535"
                     />
                 </div>
             </div>

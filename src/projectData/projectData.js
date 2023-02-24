@@ -1,56 +1,56 @@
 const projectData = [
     {
-      title: "Vulputate Mollis Ultricies Fermentum Parturient",
+      title: "Trade BTC With ROC COIN",
       description:
-        "Aenean eu leo quam. Pellentesque ornare fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.",
+        "Launched in 2009, Bitcoin is the world's largest cryptocurrency by market capitalization. Unlike fiat currency, Bitcoin is created, distributed, traded, and stored using a decentralized ledger system known as a blockchain.",
       button: "Read More",
-      image: "https://www.enyelsequeira.com/_next/image?url=%2Fimages%2Fprimu.png&w=1080&q=75",
+      image: "https://images.unsplash.com/photo-1628151015854-bc84256af7d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80",
       
       user: "Luan Gjokaj",
       userProfile: "https://i.imgur.com/JSW6mEk.png"
     },
     {
-      title: "Tortor Dapibus Commodo Aenean Quam",
+      title: "Trade ETH With ROC COIN",
       description:
-        "Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis Nullam id dolor id nibh ul consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui.",
+        "Ethereum is a blockchain-based platform best known for its cryptocurrency, ether (ETH). The blockchain technology that powers Ethereum enables secure digital ledgers to be publicly created and maintained.",
       button: "Discover",
-      image: "https://i.imgur.com/ZXBtVw7.jpg",
+      image: "https://images.unsplash.com/photo-1621501103258-3e135c8c1fda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
       user: "Erich Behrens",
       userProfile: "https://i.imgur.com/0Clfnu7.png"
     },
     {
-      title: "Phasellus volutpat metus",
+      title: "Trade BNB With ROC COIN",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.",
+        "Binance was created as a utility token for discounted trading fees in 2017, but its uses have expanded to numerous applications, including payments for transaction fees (on the Binance Chain), travel bookings, entertainment, online services, and financial services.",
       button: "Buy now",
-      image: "https://i.imgur.com/DvmN8Hx.jpg",
+      image: "https://cdn.corporatefinanceinstitute.com/assets/binance-coin-bnb.jpeg",
       user: "Bruno Vizovskyy",
       userProfile: "https://i.imgur.com/4KeKvtH.png"
     },
     {
-      title: "Phasellus volutpat metus",
+      title: "Convert Apple Gift Card To Cash",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.",
+        "Apple Gift Cards are solely for the purchase of goods and services from the Apple Store, the Apple Store app, apple.com, the App Store, iTunes, Apple Music, Apple TV, Apple Books, and other Apple properties.",
       button: "Buy now",
-      image: "https://i.imgur.com/DvmN8Hx.jpg",
+      image: "https://images.officeworks.com.au/api/2/img///s3-ap-southeast-2.amazonaws.com/wc-prod-pim/JPEG_1000x1000/BKITUNS50_apple_itunes_giftcard_50.jpg/resize?size=600&auth=MjA5OTcwODkwMg__",
       user: "Bruno Vizovskyy",
       userProfile: "https://i.imgur.com/4KeKvtH.png"
     },
     {
-      title: "Phasellus volutpat metus",
+      title: "Convert Steam Card To Cash",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.",
+        "A Steam card is a gift card that can be redeemed through Steam for credit. Credit from Steam cards can be used to buy games, downloadable content, and in-game content.",
       button: "Buy now",
-      image: "https://i.imgur.com/ZXBtVw7.jpg",
+      image: "https://production-gameflipusercontent.fingershock.com/us-east-1:76709514-3781-49fa-9a04-5f4d7c7c5d38/121c8e83-0595-4b80-99f8-1dd45b3871c0/7c075729-8a36-4571-8ab1-9a89a9793858",
       user: "Bruno Vizovskyy",
       userProfile: "https://i.imgur.com/4KeKvtH.png"
     },
     {
-      title: "Phasellus volutpat XYZ",
+      title: "Convert AMEX Card To Cash",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.",
+        "An American Express card, also called an “Amex” card, can offer a variety of perks, including rewards points, cash back, and travel perks. Some cards are co-branded, such as those with Delta and Hilton.",
       button: "Buy now",
-      image: "https://i.imgur.com/DvmN8Hx.jpg",
+      image: "https://climaxcardings.com/wp-content/uploads/2022/12/amex-e1670906409596.jpeg",
       user: "Bruno Vizovskyy",
       userProfile: "https://i.imgur.com/4KeKvtH.png"
     },

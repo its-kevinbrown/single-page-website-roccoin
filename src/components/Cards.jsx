@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/Cards.css';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import LinkIcon from '@material-ui/icons/Link';
+
 
 const Cards = ({title, description, image}) => {
     return (
@@ -12,12 +11,12 @@ const Cards = ({title, description, image}) => {
             <div className="c-content">
                 <h1 className="c-title" >{title}</h1>
                 <p className="c-text" >{description}</p>
-                <div className="c-social-links">
+                {/*<div className="c-social-links">
                     <ul>
                         <li><a href="#github"><GitHubIcon className="c-icons" /></a></li>
                         <li><a href="#source"><LinkIcon className="c-icons" /></a></li>
                     </ul>
-                </div>
+                </div>*/}
             </div>
         </div>
     )

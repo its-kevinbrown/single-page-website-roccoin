@@ -41,7 +41,7 @@ const Navbar = () => {
                     to="/"
                     duration={500}
                     onClick={toggleHome}
-                >APOLO
+                >ROC COIN
                 </NavLink>
                 {menuIcon ? <GrMenu className="menu-icon" onClick={handleMenu} /> : ""}
                 <ul
@@ -55,7 +55,7 @@ const Navbar = () => {
                             smooth={true}
                             duration={1000}
                         >
-                            Projects
+                            Crypto
                         </NavLink>
                     </li>
                     <li className="n-menu-link">

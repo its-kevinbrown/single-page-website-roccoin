@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 
 const Hero = () => {
-    const smileMan = 'https://images.unsplash.com/photo-1534614971-6be99a7a3ffd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80'
+    const smileMan = 'https://images.unsplash.com/photo-1621761191319-c6fb62004040?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'
     return (
         <div className="hero">
             <div className="h-left">
@@ -16,8 +16,8 @@ const Hero = () => {
                     transition={{ delay: 1, duration: 2 }}
 
                 >
-                    <h1 >Hello, I'm <br /> <span>Peter Jackson</span> </h1>
-                    <h2>Freelance ReactJS Developer</h2>
+                    <h1 >Hello, I'm <br /> <span>Ryan Ogonda</span> </h1>
+                    <h2>Welcome to ROC COIN official trading platform</h2>
                 </motion.div>
                 <Link
                     to="projects"
